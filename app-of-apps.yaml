@@ -5,9 +5,9 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: in-cluster
+    name: test
   project: default
   source:
     path: apps
-    repoURL: https://github.com/<username>/intro-argo-cd-tutorial # Update to your repo URL.
+    repoURL: https://github.com/urbinaalex17/argocd-with-akuity # Update to your repo URL.
     targetRevision: HEAD
