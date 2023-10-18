@@ -6,12 +6,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/<username>/intro-argo-cd-tutorial' # Update to match your fork.
+    repoURL: 'https://github.com/urbinaalex17/argocd-with-akuity' # Update to match your fork.
     path: guestbook
     targetRevision: HEAD
   destination:
     namespace: guestbook
-    name: <environment> # Update this value.
+    name: aksmain-eastus-dev # Update this value.
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
