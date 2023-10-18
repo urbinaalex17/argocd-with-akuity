@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: aksmain-eastus-dev
+    name: in-cluster
   project: default
   source:
     path: apps
